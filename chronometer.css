@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family:"Montserrat",sans-serif ;
+    background: linear-gradient(rgba(63,128,148,0.7),rgba(63,148,113,0.3));
+
+}
+#dakika,#saniye{
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+.container{
+    width: 50%;
+    height: 40%;
+    margin: 5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+#secilen-dk ,#secilen-sn{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+#baslat ,#sıfırla{
+    background: rgb(89, 94, 94);
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+#baslat:hover ,#sıfırla:hover{
+    background: rgb(49, 49, 48);
+ 
+}
+
